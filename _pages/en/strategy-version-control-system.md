@@ -176,7 +176,7 @@ For example, the action “Adjust IITB SDLC” is expected to involve the BPMO a
     <td>
     Ensure DevOps capabilities are available in the platform such as:
     <li>Continuous Integration (CI)
-    <li>Continous Deployment (CD)
+    <li>Continuous Deployment (CD)
     </td>
     <td>
     <b><i>?</i></b><br>
@@ -199,10 +199,10 @@ This Strategy ‘s success will be measured by comparing the following metrics a
 
 The metrics are defined as follows:
 
-1. *Number of ESDC Projects and Users*: 
-3. *Activity in ESDC Projects (e.g. issues, commits, integrations)*:
+1. *Number of ESDC Projects and Users*:
+2. *Activity in ESDC Projects (e.g. issues, commits, integrations)*:
 3. *User Satisfaction*:
-4.  *?*:
+4. *?*:
 
 <table>
 <tr>
