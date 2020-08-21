@@ -20,6 +20,7 @@ install:
     - "npm install axe-cli -g"
     - "npm install"
 script:
+    - git fetch --unshallow
     - docker run -d  --rm -p "127.0.0.1:4000:4000"  --volume="$PWD:/srv/jekyll" -it jekyll/jekyll:$JEKYLL_VERSION jekyll serve
     - sleep 20
     - docker ps -a
