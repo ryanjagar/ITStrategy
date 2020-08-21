@@ -19,7 +19,7 @@ env:
 before_install:
     - docker run -d  --rm -p "4000:4000" --volume="$PWD:/srv/jekyll" -it jekyll/jekyll:$JEKYLL_VERSION jekyll serve
     - sleep 20
-    - docker ps -a
+    - docker container ls --all
     - curl http://0.0.0.0:4000/ITStrategy/home.html | head -n4
 
 install:
