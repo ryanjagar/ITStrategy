@@ -6,6 +6,10 @@ node_js:
 services:
     - "docker"
 
+
+git:
+    depth: false
+      
 addons:
     chrome: stable
 
