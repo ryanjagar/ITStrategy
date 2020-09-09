@@ -39,7 +39,7 @@
     "licensee": "^7.0.3",
     "markdown-link-check": "^3.8.3",
     "markdownlint-cli": "^0.15.0",
-    "site-validator-cli": "1.3.5",
+    "site-validator-cli": "^1.3.5",
     "yaml": "^1.10.0"
   },
   "dependencies": {}
