@@ -119,6 +119,8 @@ When the results have been captured and new targets are set, repeat the process.
 
 --
 
+Not published yet...
+
 ---
 
 ## DORA Capabilities
@@ -166,15 +168,16 @@ When the results have been captured and new targets are set, repeat the process.
 
 ## IITB Strategy Recomendations
 
-Throw away PwC Roadmap
+No 5 to 10 year Roadmap
 
 - **Continuous Improvement**
   - PwC recomendations
   - DORA capabilities
 - Technical debt reduction
-- Network modernization
-- Desktop service evolution
+- Network modernization & Desktop service evolution
 - Benefits delivery (BDM, OASSIS migration, ..)
+
+https://sara-sabr.github.io/ITStrategy/strategy-transform-high-performing-org.html
 
 --
 
