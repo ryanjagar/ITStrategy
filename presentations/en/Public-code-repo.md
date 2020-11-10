@@ -34,9 +34,9 @@ Appropriate open source software licences (guidance on publishing open source co
 https://code.open.canada.ca/en/open-source-codes.html
 
 - Most GC open source code is on Github
-- CDS uses Github (~150 repos)
-- WET-BOEW (~ 90 repos)
-- TBS, SSC - Canada-ca (~70 repos)
+  - CDS (~150 repos)
+  - WET-BOEW (~ 90 repos)
+  - TBS, SSC - Canada-ca (~70 repos)
 - ESDC is also using Github
   - Developer Experience (~30 repos)
   - SABR - R&P and Strategy (~30 repos)
@@ -58,7 +58,7 @@ https://code.open.canada.ca/en/open-source-codes.html
 
 --
 
-## CLI
+## Git CLI
 
 - git clone git@github.com:sara-sabr/ITStrategy.git
 - git status
