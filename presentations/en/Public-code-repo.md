@@ -36,6 +36,7 @@ Appropriate open source software licences will be used.
 
 **Most GC open source code is on Github**
 
+<<<<<<< HEAD
 - TBS
   - CDS (~150 repos)
   - Canada-ca (~70 repos)
