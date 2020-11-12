@@ -1,8 +1,8 @@
 # IITB Strategy
 
-## Working in the open
-
 ### Public source code repo solutions
+
+#### Micro-procurement pilot
 
 November 2020
 
@@ -24,9 +24,9 @@ November 2020
 
 What is it?
 
-The work (code) produced as part of the contract is saved in a specified branch on the source code repo.
+Work (code) produced as part of the contract is saved in a specified branch on a public source code repo.
 
-Appropriate open source software licences will be used.
+**Using appropriate open source software licences**
 
 [GC Guide for Publishing Open Source Code](https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/open-source-software/guide-for-publishing-open-source-code.html#toc04)
 
@@ -36,50 +36,51 @@ Appropriate open source software licences will be used.
 
 **Most GC open source code is on Github**
 
-<<<<<<< HEAD
-- TBS
-  - CDS (~150 repos)
-  - Canada-ca (~70 repos)
-- WET-BOEW (~ 90 repos)
-- ESDC
-  - Developer Experience (~30 repos)
-  - SABR - R&P and Strategy (~30 repos)
+- TBS (CDS, WET-BOEW, GCtools, Talent Cloud, ..)
+- ESDC (Developer Experience, SABR, ..)
+- StatsCan (Drupalwxt)
+- PHAC (IRIDA)
 
 https://code.open.canada.ca/
 
-** We can't control where OSS projects are
+--
+
+## Other Source code repos
+
+- CSA (Apogy) - Eclipse.org
+- CSE (AssemblyLine) - Bitbucket.org
+- ECCC (METRO) - Framagit.org
 
 ---
+
+## Preffered solution
+
+### Github
+
+- GC Recommended public source code repository
+- Recently added to Baseline (tech brick)
+- Widely used by developpers and OSS projects
+
+** Website is enlish only
+
+--
 
 |             | Github.com | Gitlab.com | Codeberg.org |
 |-------------|---|---|---|
 | Bilingual   | English only | Yes, when logged in | Yes |
-| Accessible  | AxE - Better | AxE - Good | AxE - Good |
+| Accessible  | AxE - Good | AxE - Some warnings | AxE - Some warnings |
 | GC use      | > 500 repos | < 5 repos | None |
 
 --
 
-![alt](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "alt")
-
---
-
-## Github CLI
-
-Interact with Github using command line
-
-- Issues
-- Pull requests
-
-https://cli.github.com/
-
---
-
-Is use of Github.com or Gitlab.com acceptable for external collaboration in ESDC?
-
-Just for the pilot?
-
-In general?
+![alt](https://github.com/sara-sabr/ITStrategy/raw/strategy-10/assets/images/git-github.png "alt")
 
 ---
 
-_fin
+## Questions
+
+Is use of Github.com acceptable for external collaboration in ESDC?
+
+As part of Micro-procurement pilot?
+
+In general (working in the open)?
