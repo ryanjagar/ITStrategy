@@ -61,7 +61,7 @@ https://code.open.canada.ca/
 - Recently added to Baseline (tech brick)
 - Widely used by developpers and OSS projects
 
-** Website is enlish only
+** Website is english only
 
 --
 
