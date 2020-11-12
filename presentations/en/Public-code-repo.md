@@ -36,8 +36,8 @@ Work (code) produced as part of the contract is saved in a specified branch on a
 
 **Most GC open source code is on Github**
 
-- TBS (CDS, WET-BOEW, GCtools, Talent Cloud, ..)
-- ESDC (Developer Experience, SABR, ..)
+- TBS (CDS, WET-BOEW, GCtools, Talent Cloud)
+- ESDC (Developer Experience, SABR)
 - StatsCan (Drupalwxt)
 - PHAC (IRIDA)
 
@@ -72,6 +72,8 @@ https://code.open.canada.ca/
 | GC use      | > 500 repos | < 5 repos | None |
 
 --
+
+## Ways to use Github
 
 ![alt](https://github.com/sara-sabr/ITStrategy/raw/strategy-10/assets/images/git-github.png "alt")
 
