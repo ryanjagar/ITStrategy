@@ -59,7 +59,7 @@ https://code.open.canada.ca/
 
 - GC Recommended public source code repository
 - Recently added to Baseline (tech brick)
-- Widely used by developpers and OSS projects
+- Widely used by developers and OSS projects
 
 ** Website is english only
 
