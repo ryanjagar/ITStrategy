@@ -10,8 +10,9 @@ November 2020
 
 ## Needs
 
+- Git based source code repo
 - Working in the open with Canadians
-  - Official: Micro-procurement
+  - Official use: Micro-procurement pilot
 - Client (ESDC) can setup a repo; where
 - Supplier can
   - pull code from existing branch
@@ -19,27 +20,31 @@ November 2020
 
 --
 
-## Micro-procurement
+## Micro-procurement pilot
 
-One year pilot
+What is it?
 
-The work (code) produced as part of the contrat is saved in the specified branch on the source code repo.
+The work (code) produced as part of the contract is saved in a specified branch on the source code repo.
 
-Appropriate open source software licences (guidance on publishing open source code) will be used.
+Appropriate open source software licences will be used.
+
+[GC Guide for Publishing Open Source Code](https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/open-source-software/guide-for-publishing-open-source-code.html#toc04)
 
 ---
 
 ## GC working in the open
 
-https://code.open.canada.ca/en/open-source-codes.html
+**Most GC open source code is on Github**
 
-- Most GC open source code is on Github
-- CDS uses Github (~150 repos)
+- TBS
+  - CDS (~150 repos)
+  - Canada-ca (~70 repos)
 - WET-BOEW (~ 90 repos)
-- TBS, SSC - Canada-ca (~70 repos)
-- ESDC is also using Github
+- ESDC
   - Developer Experience (~30 repos)
   - SABR - R&P and Strategy (~30 repos)
+
+https://code.open.canada.ca/
 
 ** We can't control where OSS projects are
 
@@ -47,27 +52,24 @@ https://code.open.canada.ca/en/open-source-codes.html
 
 |             | Github.com | Gitlab.com | Codeberg.org |
 |-------------|---|---|---|
-| Bilingual   | English | Logged in | Yes |
-| Accessible  |  |  |  |
+| Bilingual   | English only | Yes, when logged in | Yes |
+| Accessible  | AxE - Better | AxE - Good | AxE - Good |
 | GC use      | > 500 repos | < 5 repos | None |
-| 2FA         | Yes | Yes | Yes |
-| Git client  | Yes | Yes | Yes |
-| CLI         | Yes | Yes | Yes |
-| Owner       | Microsoft | Gitlab Inc. | EU non-profit |
-| Pages *     | Yes | Yes | Yes |
 
 --
 
-## CLI
+![alt](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "alt")
 
-- git clone git@github.com:sara-sabr/ITStrategy.git
-- git status
-- git checkout -b newBranch
-- git add --all
-- git commit -m "Save changes"
-- git push origin newBranch
+--
 
-** Must have account, 2FA enabled, public key shared
+## Github CLI
+
+Interact with Github using command line
+
+- Issues
+- Pull requests
+
+https://cli.github.com/
 
 --
 
@@ -76,19 +78,6 @@ Is use of Github.com or Gitlab.com acceptable for external collaboration in ESDC
 Just for the pilot?
 
 In general?
-
----
-
-## Github Pages
-
-- Free SaaS/PaaS
-- Make code from a repo available as a Website
-  - https://canada-ca.github.io/devex-pages/
-- Use Jekyll, a static blog generator, to build the pages
-
-** Fully bilingual Website using WET with the Canada.ca theme
-
-*** Gitlab and Codeberg also have Pages
 
 ---
 
