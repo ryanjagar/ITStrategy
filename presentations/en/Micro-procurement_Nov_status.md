@@ -3,7 +3,9 @@
 .reveal section img { background:none; border:none; box-shadow:none; }
 </style>
 
-# Micro-procurement pilot: Status
+# Micro-procurement pilot:
+
+## Status
 
 ESDC IT Strategy team
 
@@ -11,7 +13,7 @@ to DG
 
 ---
 
-# Agenda
+## Agenda
 
 - Micro-Procurement Pilot refresher
 - Progress since last meeting
@@ -22,7 +24,7 @@ to DG
 
 ---
 
-# Refresher
+## Refresher
 
 - 3 goals: reduce burden on procurement officers, faster procurement/payment, removal of barriers to small and medium suppliers
 - All procurements will be $10K or less
@@ -31,7 +33,7 @@ to DG
 
 ---
 
-# Progress since June
+## Progress since June
 
 - secured agreement with CFOB to co-sponsor the pilot
 - resourcing requirements documented (FTE and $)
@@ -40,7 +42,7 @@ to DG
 
 ---
 
-# How it will work
+## How it will work (we think)
 
 - GitHub pages website
 - Existing systems used in back-end : SAP, email
@@ -50,7 +52,7 @@ to DG
 
 ---
 
-# Delivery plan
+## Delivery plan
 
 - IT Strategy to run the pilot for one year
 - CFOB to provide oversight and monitoring
@@ -60,14 +62,14 @@ to DG
 
 ---
 
-# Challenges
+## Challenges
 
 - backlog with EA team
 - potential challenge getting legal review of T&Cs
 
 ---
 
-# Next Steps
+## Next Steps
 
 - lite project documents are with EA for review
 - continue working with CFOB to refine draft processes
