@@ -3,7 +3,7 @@
 .reveal section img { background:none; border:none; box-shadow:none; }
 </style>
 
-# Status update on the Micro-procurement pilot
+# Micro-procurement pilot: Status
 
 ESDC IT Strategy team
 
@@ -22,7 +22,7 @@ to DG
 
 ---
 
-# Micro-procurement pilot refresher
+# Refresher
 
 - 3 goals: reduce burden on procurement officers, faster procurement/payment, removal of barriers to small and medium suppliers
 - All procurements will be $10K or less
