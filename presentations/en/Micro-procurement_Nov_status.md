@@ -3,9 +3,7 @@
 .reveal section img { background:none; border:none; box-shadow:none; }
 </style>
 
-# Micro-procurement pilot:
-
-## Status
+# Micro-procurement pilot: Status
 
 ESDC IT Strategy team
 
