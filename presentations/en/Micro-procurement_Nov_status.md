@@ -24,7 +24,11 @@ to DG
 
 ## Refresher
 
-- 3 goals: reduce burden on procurement officers, faster procurement/payment, removal of barriers to small and medium suppliers
+- This will be a pilot/experiment
+- Three goals:
+  - reduce burden on procurement officers,
+  - faster procurement/payment, and
+  - removal of barriers to small and medium suppliers
 - All procurements will be $10K or less
 - All procured code will be licensed as open source
 - Not just for teams already using open source
@@ -33,19 +37,19 @@ to DG
 
 ## Progress since June
 
-- secured agreement with CFOB to co-sponsor the pilot
-- resourcing requirements documented (FTE and $)
-- lite project process underway
-- decision to re-use existing systems wherever possible
+- Secured agreement with CFOB to co-sponsor the pilot
+- Resourcing requirements documented (FTE and $)
+- Lite project process underway
+- Decision to re-use existing systems wherever possible
 
 ---
 
 ## How it will work (we think)
 
-- GitHub pages website
+- Static website (hosted by GitHub)
 - Existing systems used in back-end : SAP, email
 - All opportunities reviewed by IT Strategy team prior to posting
-- All delivered code saved to an open repo
+- All delivered code saved to an open repository
 - Payment by credit card/PayPal
 
 ---
@@ -62,13 +66,13 @@ to DG
 
 ## Challenges
 
-- backlog with EA team
-- potential challenge getting legal review of T&Cs
+- Backlog with EA team
+- Potential challenge getting legal review of T&Cs
 
 ---
 
 ## Next Steps
 
-- lite project documents are with EA for review
-- continue working with CFOB to refine draft processes
-- seek ESDC clients
+- Lite project documents are with EA for review
+- Continue working with CFOB to refine draft processes
+- Seek ESDC clients
