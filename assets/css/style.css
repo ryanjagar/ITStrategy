@@ -1,5 +1,5 @@
 /*============= GENERAL =============*/
-/*Source: https://accessibility.oit.ncsu.edu/it-accessibility-at-nc-state/developers/accessibility-handbook/mouse-and-keyboard-events/skip-to-main-content/*/
+/*Source: https://accessibility.oit.ncsu.edu/it-accessibility-at-nc-state/developers/accessibility-handbook/mouse-and-keyboard-events/skip-to-main-content/ */
 
 a.skiptocontent {
     left:-999px;
@@ -38,6 +38,7 @@ a.skiptocontent:focus, .skiptocontent:active {
   background-color: #e9ecef;
   padding: .75rem 1.25rem;
   border-radius: .25rem;
+  font-size: 1rem;
 }
 
 body>.container {
