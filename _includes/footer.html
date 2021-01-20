@@ -27,6 +27,13 @@
  <script src="assets/js/datatable.js"></script>
 {%- endif -%}
 
+{%- for script in page.scripts -%}
+<script src="assets/js/{{script}}.js"></script>
+{%- endfor -%}
+<!--
+<script src="assets/js/github-issues.js">
+</script>
+-->
 <script>
   $("table").addClass("table");
   $("blockquote").addClass("blockquote");
