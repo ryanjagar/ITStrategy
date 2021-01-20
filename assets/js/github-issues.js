@@ -1,7 +1,7 @@
-/*---
+---
   title: github - issues
 ---
-*/
+
 /**
  * Gantt chart generated from GitHub Issues.
  *
@@ -117,7 +117,7 @@ function issuesWithoutLabels(issues) {
 function hasInitiative (issue) {
   let labelName;
   issue.labels.forEach(name =>{
-    
+
   })
   return ;
 }
