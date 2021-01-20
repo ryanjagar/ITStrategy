@@ -1,0 +1,263 @@
+[
+  {
+    "id": 1813789412,
+    "node_id": "MDU6TGFiZWwxODEzNzg5NDEy",
+    "url": "https://api.github.com/repos/sara-sabr/ITStrategy/labels/Accessibility",
+    "name": "Accessibility",
+    "color": "c68515",
+    "default": false,
+    "description": ""
+  },
+  {
+    "id": 1690356959,
+    "node_id": "MDU6TGFiZWwxNjkwMzU2OTU5",
+    "url": "https://api.github.com/repos/sara-sabr/ITStrategy/labels/Admin",
+    "name": "Admin",
+    "color": "d4c5f9",
+    "default": false,
+    "description": ""
+  },
+  {
+    "id": 1690250082,
+    "node_id": "MDU6TGFiZWwxNjkwMjUwMDgy",
+    "url": "https://api.github.com/repos/sara-sabr/ITStrategy/labels/Blog",
+    "name": "Blog",
+    "color": "e0c426",
+    "default": false,
+    "description": ""
+  },
+  {
+    "id": 1705688543,
+    "node_id": "MDU6TGFiZWwxNzA1Njg4NTQz",
+    "url": "https://api.github.com/repos/sara-sabr/ITStrategy/labels/Enabling",
+    "name": "Enabling",
+    "color": "90f9ce",
+    "default": false,
+    "description": ""
+  },
+  {
+    "id": 2368292378,
+    "node_id": "MDU6TGFiZWwyMzY4MjkyMzc4",
+    "url": "https://api.github.com/repos/sara-sabr/ITStrategy/labels/Future%20release",
+    "name": "Future release",
+    "color": "cea9e8",
+    "default": false,
+    "description": ""
+  },
+  {
+    "id": 2585582340,
+    "node_id": "MDU6TGFiZWwyNTg1NTgyMzQw",
+    "url": "https://api.github.com/repos/sara-sabr/ITStrategy/labels/Governance",
+    "name": "Governance",
+    "color": "fef2c0",
+    "default": false,
+    "description": "Activities related to governance (e.g. getting approval)"
+  },
+  {
+    "id": 1536789894,
+    "node_id": "MDU6TGFiZWwxNTM2Nzg5ODk0",
+    "url": "https://api.github.com/repos/sara-sabr/ITStrategy/labels/Outreach",
+    "name": "Outreach",
+    "color": "1b9bb5",
+    "default": false,
+    "description": "Stakeholder engagement, peer reviews, socialization of strategies"
+  },
+  {
+    "id": 2654879597,
+    "node_id": "MDU6TGFiZWwyNjU0ODc5NTk3",
+    "url": "https://api.github.com/repos/sara-sabr/ITStrategy/labels/Quarter%201",
+    "name": "Quarter 1",
+    "color": "7B877B",
+    "default": false,
+    "description": ""
+  },
+  {
+    "id": 2654879888,
+    "node_id": "MDU6TGFiZWwyNjU0ODc5ODg4",
+    "url": "https://api.github.com/repos/sara-sabr/ITStrategy/labels/Quarter%202",
+    "name": "Quarter 2",
+    "color": "7E8227",
+    "default": false,
+    "description": ""
+  },
+  {
+    "id": 2654880202,
+    "node_id": "MDU6TGFiZWwyNjU0ODgwMjAy",
+    "url": "https://api.github.com/repos/sara-sabr/ITStrategy/labels/Quarter%203",
+    "name": "Quarter 3",
+    "color": "FD71D3",
+    "default": false,
+    "description": ""
+  },
+  {
+    "id": 2654879083,
+    "node_id": "MDU6TGFiZWwyNjU0ODc5MDgz",
+    "url": "https://api.github.com/repos/sara-sabr/ITStrategy/labels/Quarter%204",
+    "name": "Quarter 4",
+    "color": "D5890C",
+    "default": false,
+    "description": ""
+  },
+  {
+    "id": 2500589099,
+    "node_id": "MDU6TGFiZWwyNTAwNTg5MDk5",
+    "url": "https://api.github.com/repos/sara-sabr/ITStrategy/labels/Training",
+    "name": "Training",
+    "color": "b7571f",
+    "default": false,
+    "description": ""
+  },
+  {
+    "id": 1394145209,
+    "node_id": "MDU6TGFiZWwxMzk0MTQ1MjA5",
+    "url": "https://api.github.com/repos/sara-sabr/ITStrategy/labels/bug",
+    "name": "bug",
+    "color": "d73a4a",
+    "default": true,
+    "description": "Something isn't working"
+  },
+  {
+    "id": 1466973569,
+    "node_id": "MDU6TGFiZWwxNDY2OTczNTY5",
+    "url": "https://api.github.com/repos/sara-sabr/ITStrategy/labels/communications",
+    "name": "communications",
+    "color": "e99695",
+    "default": false,
+    "description": ""
+  },
+  {
+    "id": 1447227177,
+    "node_id": "MDU6TGFiZWwxNDQ3MjI3MTc3",
+    "url": "https://api.github.com/repos/sara-sabr/ITStrategy/labels/dependencies",
+    "name": "dependencies",
+    "color": "0366d6",
+    "default": false,
+    "description": "Pull requests that update a dependency file"
+  },
+  {
+    "id": 1394145211,
+    "node_id": "MDU6TGFiZWwxMzk0MTQ1MjEx",
+    "url": "https://api.github.com/repos/sara-sabr/ITStrategy/labels/documentation",
+    "name": "documentation",
+    "color": "0075ca",
+    "default": true,
+    "description": "Improvements or additions to documentation"
+  },
+  {
+    "id": 1466950523,
+    "node_id": "MDU6TGFiZWwxNDY2OTUwNTIz",
+    "url": "https://api.github.com/repos/sara-sabr/ITStrategy/labels/events",
+    "name": "events",
+    "color": "7b34bc",
+    "default": false,
+    "description": ""
+  },
+  {
+    "id": 1605407221,
+    "node_id": "MDU6TGFiZWwxNjA1NDA3MjIx",
+    "url": "https://api.github.com/repos/sara-sabr/ITStrategy/labels/grassroot",
+    "name": "grassroot",
+    "color": "143893",
+    "default": false,
+    "description": ""
+  },
+  {
+    "id": 1536629131,
+    "node_id": "MDU6TGFiZWwxNTM2NjI5MTMx",
+    "url": "https://api.github.com/repos/sara-sabr/ITStrategy/labels/ideation",
+    "name": "ideation",
+    "color": "09b7a0",
+    "default": false,
+    "description": "Brewering idea(s), analysis required"
+  },
+  {
+    "id": 2673705147,
+    "node_id": "MDU6TGFiZWwyNjczNzA1MTQ3",
+    "url": "https://api.github.com/repos/sara-sabr/ITStrategy/labels/init-tsdm",
+    "name": "init-tsdm",
+    "color": "000000",
+    "default": false,
+    "description": "Related to initiative Target IT Solution Delivery Model (TSDM)"
+  },
+  {
+    "id": 2673375717,
+    "node_id": "MDU6TGFiZWwyNjczMzc1NzE3",
+    "url": "https://api.github.com/repos/sara-sabr/ITStrategy/labels/initiative:abb",
+    "name": "initiative:abb",
+    "color": "46B63F",
+    "default": false,
+    "description": ""
+  },
+  {
+    "id": 2516354578,
+    "node_id": "MDU6TGFiZWwyNTE2MzU0NTc4",
+    "url": "https://api.github.com/repos/sara-sabr/ITStrategy/labels/micro-acquisitions",
+    "name": "micro-acquisitions",
+    "color": "5bd882",
+    "default": false,
+    "description": ""
+  },
+  {
+    "id": 1463162949,
+    "node_id": "MDU6TGFiZWwxNDYzMTYyOTQ5",
+    "url": "https://api.github.com/repos/sara-sabr/ITStrategy/labels/open%20source",
+    "name": "open source",
+    "color": "ff9b19",
+    "default": false,
+    "description": ""
+  },
+  {
+    "id": 1466961109,
+    "node_id": "MDU6TGFiZWwxNDY2OTYxMTA5",
+    "url": "https://api.github.com/repos/sara-sabr/ITStrategy/labels/policies",
+    "name": "policies",
+    "color": "bfed8e",
+    "default": false,
+    "description": ""
+  },
+  {
+    "id": 1465519702,
+    "node_id": "MDU6TGFiZWwxNDY1NTE5NzAy",
+    "url": "https://api.github.com/repos/sara-sabr/ITStrategy/labels/strategies",
+    "name": "strategies",
+    "color": "3fcc59",
+    "default": false,
+    "description": ""
+  },
+  {
+    "id": 2156209652,
+    "node_id": "MDU6TGFiZWwyMTU2MjA5NjUy",
+    "url": "https://api.github.com/repos/sara-sabr/ITStrategy/labels/tech",
+    "name": "tech",
+    "color": "bccdff",
+    "default": false,
+    "description": "Technical activity"
+  },
+  {
+    "id": 1465526386,
+    "node_id": "MDU6TGFiZWwxNDY1NTI2Mzg2",
+    "url": "https://api.github.com/repos/sara-sabr/ITStrategy/labels/toil",
+    "name": "toil",
+    "color": "fbca04",
+    "default": false,
+    "description": ""
+  },
+  {
+    "id": 1624624332,
+    "node_id": "MDU6TGFiZWwxNjI0NjI0MzMy",
+    "url": "https://api.github.com/repos/sara-sabr/ITStrategy/labels/translation",
+    "name": "translation",
+    "color": "29b0ce",
+    "default": false,
+    "description": ""
+  },
+  {
+    "id": 1900839162,
+    "node_id": "MDU6TGFiZWwxOTAwODM5MTYy",
+    "url": "https://api.github.com/repos/sara-sabr/ITStrategy/labels/website",
+    "name": "website",
+    "color": "4a8ed3",
+    "default": false,
+    "description": ""
+  }
+]
