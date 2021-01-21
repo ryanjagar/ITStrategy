@@ -33,7 +33,7 @@ var issues = octokit;
 
 
 /**
- * Array of issues from GitHub
+ * Arrays of metadata (issues, labels) from GitHub
  */
 var issues = {{ site.data.issues | jsonify }};
 var labels = {{ site.data.labels | jsonify }};
@@ -167,6 +167,28 @@ function issueByNumber(issues, issueNumber) {
   return issueByNumber;
 }
 
+var div = document.getElementById('svgContainer');
+let issuesFiltered = issuesWithInitiative(issues, labels, labelConvention);
+var header = document.createElement("h2");
+var textNode = document.createTextNode("Issues associated to a milestone");
+header.appendChild(textNode)
+div.appendChild(header)
+var h3 = document.createElement("h3");
+
+var h3Text = document.createTextNode(issueByNumber(issues, issuesFiltered.assigned[0]).milestone.title)
+h3.appendChild(h3Text);
+div.appendChild(h3);
+var para = document.createElement("p");
+var paraText = document.createTextNode('Number of issues in milestone: ' + issuesFiltered.assigned.length);
+para.appendChild(paraText);
+div.appendChild(para);
+issuesFiltered.assigned.forEach(issue => {
+  var para = document.createElement("p");
+  thisIssue = issueByNumber(issues, issue);
+  var text = document.createTextNode(thisIssue.title);
+  para.appendChild(text);
+  div.appendChild(para);
+});
 
 /**
  * TODO:
