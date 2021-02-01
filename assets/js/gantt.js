@@ -239,6 +239,9 @@ var width = 800;
 var startDate = new Date("2021-01-01");
 var endDate = new Date("2021-12-31");
 
+//TODO: Introduce function to change type of scale (quarters/monthly/weekly) available depending on start/end dates
+var timeScale = "quarters";
+
 var svg = d3.select("#svgContainer")
   .append("svg")
   .attr("width", width)
@@ -253,7 +256,7 @@ var title = svg.append("text")
   .attr("font-size", 20)
   .attr("fill", "grey")
 
-function generateGantt(svgHeight, svgWidth, initiatives, startDate, endDate) {
+function generateGantt(svgHeight, svgWidth, initiatives, startDate, endDate, timeScale) {
   
 }
 
