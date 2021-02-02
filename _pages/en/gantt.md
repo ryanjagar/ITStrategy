@@ -7,7 +7,7 @@ permalink: /issues-gantt.html
 status: posted
 sections: Work In Progress
 scripts:
-  - github-issues
+  - gantt
 ---
 <!--markdownlint-disable-->
 {% include gantt.html %}
