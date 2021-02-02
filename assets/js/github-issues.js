@@ -289,7 +289,8 @@ function milestonesSorted(issues) {
 
 var data = milestonesSorted(issues);
 
-var width = 600
+var height = 400
+var width = 800
 scaleFactor = 20,
   barHeight = 30;
 
