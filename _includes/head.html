@@ -33,10 +33,12 @@
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.19/css/dataTables.bootstrap4.min.css">
 
+    {% if page.scripts contains 'mathjax' %}
   <!-- Mathjax Support -->
   <script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
   </script>
+  {% endif %}
 
   <!-- D3js - Visualization-->
-  <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
 </head>
