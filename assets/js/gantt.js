@@ -231,6 +231,11 @@ var initiatives = [
   }
 ];
 
+var initCategories = [];
+initiatives.forEach(initiative => {
+  initCategories.push(initiative.name);
+})
+
 //TODO: Make responsive
 var height = 400;
 var width = 800;
@@ -238,6 +243,7 @@ var width = 800;
 //TODO: Introduce functions to let user decide scope of Gantt
 var startDate = new Date("2021-01-01");
 var endDate = new Date("2021-12-31");
+
 
 //TODO: Introduce function to change type of scale (quarters/monthly/weekly) available depending on start/end dates
 var timeScale = "quarters";
@@ -256,8 +262,57 @@ var title = svg.append("text")
   .attr("font-size", 20)
   .attr("fill", "grey")
 
+
 function generateGantt(svgHeight, svgWidth, initiatives, startDate, endDate, timeScale) {
-  
+  console.log(height + " " + width);
+  console.log(startDate.getFullYear());
+  const numInitiatives = initiatives.length;
+  console.log(numInitiatives)
+  console.log(initiatives[0])
+
+  //Setting colors range function
+  let colors = d3.scaleLinear()
+    .domain([0, 1])
+    .range(["yellow", "blue"])
+
+  //Setting up the groupings at initiative level
+  let initiativeBands = svg.append("g")
+    .selectAll("rect")
+    .data(initiatives)
+    .enter()
+    .append("rect")
+    .attr("x", 0)
+    .attr("y", function (d, i) {
+      return i * (svgHeight / (initCategories.length + 10)) + 40;
+    })
+    .attr("width", function (d) {
+      return svgWidth * 0.95;
+    })
+    .attr("height", svgHeight / (initCategories.length + 10))
+    .attr("stroke", "none")
+    .attr("fill", function (d) {
+      for (let i = 0; i < initCategories.length; i++) {
+        if (d.name == initCategories[i])
+        return d3.rgb(colors(1/i)); 
+      }
+    })
+    .attr("opacity", 0.2);
+
+  let tasksBands = svg.append("g")
+    .selectAll("rect")
+    .data(initiatives)
+    .enter();
+
+  let tasksText = tasksBands.append("text")
+    .text(function (d) {
+      return d.name;
+    })
+    .attr("x", svgWidth / 2)
+    .attr("y", function (d, i) {
+      return i * (svgHeight / (initCategories.length + 10)) + 40 + 14;
+    })
+    .attr("text-anchor", "middle")
+
 }
 
-function drawBands()
+generateGantt(height, width, initiatives, startDate, endDate, timeScale);
