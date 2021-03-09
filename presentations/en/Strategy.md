@@ -66,6 +66,8 @@ This is an aspirational, system-level goal, for example
 - Lead time for change [1-24] hours
 - Deploy frequency [1-24] hours or on demand
 - Time to restore service [1-24] hours
+- Change failure rate < 15%
+- Strong generative (Westrum) culture
 
 --
 
